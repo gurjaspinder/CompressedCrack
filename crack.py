@@ -78,7 +78,6 @@ class Handler:
         self.CheckRules()
 
     def GetFile(self):
-        # Khai báo file
         if self.type == '.zip':
             self.FileCrack = zipfile.ZipFile(self.location)
         else:
